@@ -1,24 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Onboarding View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="OnboardingViewController" customModule="financeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtF-9N-aia">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="632"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="8V1-te-Buq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="VLV-ip-N91"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="s6t-E5-uBh">
+                                <rect key="frame" x="129" y="686" width="156" height="26"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM9-jh-HJA">
+                                <rect key="frame" x="137" y="762" width="140" height="60"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="bk7-bT-m73"/>
+                                    <constraint firstAttribute="width" constant="140" id="mvm-QH-iwt"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Apply Now">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.063097141679999996" green="0.081927992399999996" blue="0.1019635722" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="CtF-9N-aia" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EEh-rF-o7h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZM9-jh-HJA" secondAttribute="bottom" constant="40" id="NcD-1T-PLj"/>
+                            <constraint firstItem="CtF-9N-aia" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZUC-a6-X2Y"/>
+                            <constraint firstItem="ZM9-jh-HJA" firstAttribute="top" secondItem="s6t-E5-uBh" secondAttribute="bottom" constant="50" id="h5T-0N-8Rl"/>
+                            <constraint firstItem="ZM9-jh-HJA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mDj-r2-3R8"/>
+                            <constraint firstItem="s6t-E5-uBh" firstAttribute="centerX" secondItem="ZM9-jh-HJA" secondAttribute="centerX" id="sxu-IT-vMl"/>
+                            <constraint firstItem="CtF-9N-aia" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vZl-KN-rBc"/>
+                            <constraint firstItem="s6t-E5-uBh" firstAttribute="top" secondItem="CtF-9N-aia" secondAttribute="bottom" constant="54" id="z1z-E3-nlx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnGetStarted" destination="ZM9-jh-HJA" id="CaL-PM-EFy"/>
+                        <outlet property="pageControl" destination="s6t-E5-uBh" id="Ny0-cd-QvF"/>
+                        <outlet property="scrollView" destination="CtF-9N-aia" id="f2g-D8-V4j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="124.55357142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
