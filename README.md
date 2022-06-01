@@ -19,7 +19,7 @@ There would be variety of Diff domain projects you can find here.
 
 LinkedIn: https://www.linkedin.com/in/shreethaanu-raveendran-7a6275b2/
 
-Github : https://github.com/shreethaanu
+Medium : https://shreethaanur.medium.com/
 
 Instagram : https://www.instagram.com/shreethaanu_blogs/
 
