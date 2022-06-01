@@ -99,9 +99,13 @@
 		E2892BC62847E7670049987D /* financeApp */ = {
 			isa = PBXGroup;
 			children = (
-				E2892BC72847E7670049987D /* AppDelegate.swift */,
-				E2892BC92847E7670049987D /* SceneDelegate.swift */,
-				E2892BCB2847E7670049987D /* OnboardingViewController.swift */,
+				E2892BFE2847F1EA0049987D /* CardDetail */,
+				E2892BFD2847F1E10049987D /* Cards */,
+				E2892BFC2847F1D40049987D /* HomeDetail */,
+				E2892BFB2847F1B20049987D /* Main */,
+				E2892BF92847F19B0049987D /* Accounts */,
+				E2892BF82847F1880049987D /* Home */,
+				E2892BF72847F17D0049987D /* Onboarding */,
 				E2892BCD2847E7670049987D /* Main.storyboard */,
 				E2892BD02847E7680049987D /* Assets.xcassets */,
 				E2892BD22847E7680049987D /* LaunchScreen.storyboard */,
@@ -125,6 +129,58 @@
 				E2892BEA2847E7690049987D /* financeAppUITestsLaunchTests.swift */,
 			);
 			path = financeAppUITests;
+			sourceTree = "<group>";
+		};
+		E2892BF72847F17D0049987D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E2892BCB2847E7670049987D /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E2892BF82847F1880049987D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2892BF92847F19B0049987D /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		E2892BFB2847F1B20049987D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E2892BC72847E7670049987D /* AppDelegate.swift */,
+				E2892BC92847E7670049987D /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E2892BFC2847F1D40049987D /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeDetail;
+			sourceTree = "<group>";
+		};
+		E2892BFD2847F1E10049987D /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		E2892BFE2847F1EA0049987D /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CardDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
