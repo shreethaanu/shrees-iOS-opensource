@@ -35,6 +35,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Apply Now">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nm0-9X-TYy" kind="showDetail" id="PAr-VZ-YgC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,10 +61,118 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4.3478260869565224" y="124.55357142857142"/>
+            <point key="canvasLocation" x="1652" y="50"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="wwe-ng-NX5">
+            <objects>
+                <viewController storyboardIdentifier="homeViewController" id="Tja-hU-Vvy" customClass="homeViewController" customModule="financeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tds-Dv-MWk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Shree," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc4-qG-nxv">
+                                <rect key="frame" x="20" y="35" width="118" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UserPic" translatesAutoresizingMaskIntoConstraints="NO" id="e8U-GK-O9o">
+                                <rect key="frame" x="344" y="23.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="hQf-sA-aGg"/>
+                                    <constraint firstAttribute="height" constant="50" id="rz7-OM-wqp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColorV">
+                                        <color key="value" red="0.82124329770000004" green="1" blue="0.891476253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bOi-B5-MPh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e8U-GK-O9o" firstAttribute="centerY" secondItem="oc4-qG-nxv" secondAttribute="centerY" id="7IY-a7-x3L"/>
+                            <constraint firstItem="oc4-qG-nxv" firstAttribute="top" secondItem="bOi-B5-MPh" secondAttribute="top" constant="35" id="Vfo-ov-vDk"/>
+                            <constraint firstItem="bOi-B5-MPh" firstAttribute="trailing" secondItem="e8U-GK-O9o" secondAttribute="trailing" constant="20" id="ghK-Ri-l5M"/>
+                            <constraint firstItem="oc4-qG-nxv" firstAttribute="leading" secondItem="bOi-B5-MPh" secondAttribute="leading" constant="20" id="yJc-jD-36e"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="YKf-cx-ihx"/>
+                    <navigationItem key="navigationItem" id="FdI-pM-Qr7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ur-xc-yot" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="1661"/>
+        </scene>
+        <!--Cards-->
+        <scene sceneID="NIQ-4p-Hjg">
+            <objects>
+                <viewController id="qKN-FY-REv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vio-nq-zl9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bgA-TA-Nzm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cards" image="creditcard" catalog="system" id="6IN-d8-2I9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qWO-pp-HBB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="1661"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rWT-SI-5z2">
+            <objects>
+                <tabBarController id="nm0-9X-TYy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Dh5-i3-mo7"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EmF-2b-Td1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Tja-hU-Vvy" kind="relationship" relationship="viewControllers" id="T3z-iO-LYh"/>
+                        <segue destination="qKN-FY-REv" kind="relationship" relationship="viewControllers" id="VLV-m4-evF"/>
+                        <segue destination="epN-ca-GtZ" kind="relationship" relationship="viewControllers" id="7cD-g0-OJc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYS-3u-PLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735" y="850"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="VdY-CY-OeO">
+            <objects>
+                <viewController id="epN-ca-GtZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHJ-E1-CWF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="42q-E6-rPN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Account" image="person" catalog="system" id="pAZ-jq-iJj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9X-AF-BiQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2665" y="1661"/>
         </scene>
     </scenes>
     <resources>
+        <image name="UserPic" width="554" height="642"/>
+        <image name="creditcard" catalog="system" width="128" height="88"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

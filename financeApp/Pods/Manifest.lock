@@ -1,0 +1,16 @@
+PODS:
+  - CreditCardView (0.1.1)
+
+DEPENDENCIES:
+  - CreditCardView
+
+SPEC REPOS:
+  trunk:
+    - CreditCardView
+
+SPEC CHECKSUMS:
+  CreditCardView: 2f4c9dbede61e2867067b1dbdb8a2b3366d04500
+
+PODFILE CHECKSUM: 5b7a802ceb29bde972f5f0b6933106f0aa207686
+
+COCOAPODS: 1.8.4

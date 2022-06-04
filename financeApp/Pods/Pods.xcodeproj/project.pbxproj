@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AA0FBB927A140A2C8006CB773F149D /* CCBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C12562F884761B8063E3022C0EC2CA /* CCBackgroundView.swift */; };
+		24DE355FFD1730FDC5C1463704607A4C /* CreditCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5B58B53F60BCD54D38B5793F13E1E6 /* CreditCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A981DF4ED1403872923A9581A079D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30F6D86AE718F28AC97B297398DB4DC6 /* Pods-financeApp-financeAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B08396D3DFBC61ED4103296E858FEB3 /* Pods-financeApp-financeAppUITests-dummy.m */; };
+		33A892D74157BF672B9F282A0E2BE44C /* CCContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710428C656A62EBA22CA9FC0C125D78F /* CCContentView.swift */; };
+		394EB741BF07E189322B7CF6E39EE85F /* Pods-financeApp-financeAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2A942A95AE8ABCA03E2FA98F352B1F /* Pods-financeApp-financeAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB2D6A3312CFF52BC70E3BD4AD76B86 /* Pods-financeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634B80C64012324A42C3378EE03167C8 /* Pods-financeApp-dummy.m */; };
+		4E7A7DE652C8CD660CC556B0087FFD59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56294841A232619B227CA0C7D3728193 /* Pods-financeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A1470FE429E0A6495F389949AC18B4 /* Pods-financeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B989A21CD6A40160251FB962C4E47BB /* Pods-financeAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CF8A71593022936F37AC873F6A377 /* Pods-financeAppTests-dummy.m */; };
+		68EADDF69B1F5D7C9DACFD03949EECEC /* CreditCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 626124FCCE1F28D5F2CA9069B3B602F7 /* CreditCardView-dummy.m */; };
+		88FB653319BE06BB98F6B1BCDAC40320 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C179B7C820B4C0FAF69D5986FDB4CEB /* CreditCardView.swift */; };
+		A47DE2AA0F9A1C60FC097150A21C0C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF25AD4EF65F097FD8DFB5BE046894C2 /* Pods-financeAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5705069A8B2AAE7F3446ED93612FA0 /* Pods-financeAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75B69BF0EA156BD7D495A561B8DD7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		111EF0417EAF9274CB447EEF52BB94AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFE403432A84887C89208F7612BC1D;
+			remoteInfo = CreditCardView;
+		};
+		1283BBF98B5D91521C5E5793E7423F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFE403432A84887C89208F7612BC1D;
+			remoteInfo = CreditCardView;
+		};
+		8255FCE56DB650A02213ED39C63C7EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89B9A3C8FBB3F1A3F7440939F212707;
+			remoteInfo = "Pods-financeApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101046075AF0E5E6E47027C3152F2C1A /* Pods-financeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-financeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A62F414C26BCC86B5816048EF4980A9 /* Pods-financeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeApp.release.xcconfig"; sourceTree = "<group>"; };
+		1B08396D3DFBC61ED4103296E858FEB3 /* Pods-financeApp-financeAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-financeApp-financeAppUITests-dummy.m"; sourceTree = "<group>"; };
+		1C179B7C820B4C0FAF69D5986FDB4CEB /* CreditCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardView.swift; path = Classes/CreditCardView.swift; sourceTree = "<group>"; };
+		243A3D9E2B01A3934983445DA3FF7821 /* CreditCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CreditCardView.modulemap; sourceTree = "<group>"; };
+		39991592F02DA8870355B9A2727A4D6A /* Pods-financeApp-financeAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-financeApp-financeAppUITests.modulemap"; sourceTree = "<group>"; };
+		3D4CF8A71593022936F37AC873F6A377 /* Pods-financeAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-financeAppTests-dummy.m"; sourceTree = "<group>"; };
+		42A1470FE429E0A6495F389949AC18B4 /* Pods-financeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-financeApp-umbrella.h"; sourceTree = "<group>"; };
+		498C7555483AFD883A27039D8255BA06 /* Pods-financeApp-financeAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-financeApp-financeAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C0D63EFA9A45A3D21595AB51079BE38 /* Pods-financeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCEC8E8CCAEF1644854A3CFAA559EF1 /* Pods-financeAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6087259B1B35B09B99B92684132536C9 /* Pods_financeApp_financeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_financeApp_financeAppUITests.framework; path = "Pods-financeApp-financeAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626124FCCE1F28D5F2CA9069B3B602F7 /* CreditCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CreditCardView-dummy.m"; sourceTree = "<group>"; };
+		634B80C64012324A42C3378EE03167C8 /* Pods-financeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-financeApp-dummy.m"; sourceTree = "<group>"; };
+		63D477A8CBCBE08E4F58A80DD87CB58E /* CreditCardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardView-prefix.pch"; sourceTree = "<group>"; };
+		6489B6AACB691D5F4B2FCED449AD3AE6 /* Pods-financeAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-financeAppTests.modulemap"; sourceTree = "<group>"; };
+		710428C656A62EBA22CA9FC0C125D78F /* CCContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCContentView.swift; path = Classes/CCContentView.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E2A942A95AE8ABCA03E2FA98F352B1F /* Pods-financeApp-financeAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-financeApp-financeAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		8326C427E059E8BF58C4BFB7AEB3E2FB /* Pods-financeApp-financeAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeApp-financeAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F9F5E30E2005F654AAED1403DCB92F4 /* Pods-financeApp-financeAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeApp-financeAppUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C12562F884761B8063E3022C0EC2CA /* CCBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCBackgroundView.swift; path = Classes/CCBackgroundView.swift; sourceTree = "<group>"; };
+		AD0AC6993C1E276FBF2377BDE4358B44 /* Pods-financeAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-financeAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8463C82425FBE1DD7FDDE6310AC917D /* Pods-financeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BAF52FE7E149E2FCA41387B2A3D2FF85 /* Pods-financeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDBC66F728DB1BB5BDFE303F5989896B /* CreditCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CreditCardView-Info.plist"; sourceTree = "<group>"; };
+		BF5705069A8B2AAE7F3446ED93612FA0 /* Pods-financeAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-financeAppTests-umbrella.h"; sourceTree = "<group>"; };
+		C655C453257937C4D8D76C7CBEDCB11F /* CreditCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CreditCardView.framework; path = CreditCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C998EC5A92AC01F1423FF226F4E64F89 /* Pods_financeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_financeAppTests.framework; path = "Pods-financeAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1663DD8056E2AC072D6200F2F1B923C /* Pods-financeApp-financeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeApp-financeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE21264824CC4CAF5FA938B68A5DB04E /* Pods-financeApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-financeApp-frameworks.sh"; sourceTree = "<group>"; };
+		DE50B8380C917528C49BD3C5EA00FCA7 /* Pods-financeApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeApp-Info.plist"; sourceTree = "<group>"; };
+		DEA0FB5FF9B5E1547461E00410E6EEA8 /* Pods_financeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_financeApp.framework; path = "Pods-financeApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED1213A39DBD655D35E04CA4F9E180A /* CreditCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreditCardView.xcconfig; sourceTree = "<group>"; };
+		E9AE0DB8F2BE397FEF30F7454B0C205C /* Pods-financeAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeAppTests-Info.plist"; sourceTree = "<group>"; };
+		ED39E2964567171ED6D89494FFD0BA42 /* Pods-financeApp-financeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-financeApp-financeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7AD7B4E338A1B5F6D43BD7662086B5D /* Pods-financeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-financeApp.modulemap"; sourceTree = "<group>"; };
+		F93E3748E97F7D5BD87CD20E2F002609 /* Pods-financeApp-financeAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-financeApp-financeAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD2B071BD7054D0D80E30A5352A4E477 /* Pods-financeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-financeApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD5B58B53F60BCD54D38B5793F13E1E6 /* CreditCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A655142C96FB4FCEFBEF64E3DFD5E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47DE2AA0F9A1C60FC097150A21C0C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FCABEF0165FDC4C623B7249A94C2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75B69BF0EA156BD7D495A561B8DD7C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30B3F9030BF64E0F36A110ECC28A158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A981DF4ED1403872923A9581A079D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F29D81626321F2DC7005609EC60841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7A7DE652C8CD660CC556B0087FFD59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB21A4C37E25D26CB628EC987A72ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C655C453257937C4D8D76C7CBEDCB11F /* CreditCardView.framework */,
+				DEA0FB5FF9B5E1547461E00410E6EEA8 /* Pods_financeApp.framework */,
+				6087259B1B35B09B99B92684132536C9 /* Pods_financeApp_financeAppUITests.framework */,
+				C998EC5A92AC01F1423FF226F4E64F89 /* Pods_financeAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A8EE1FC0EE1A1D2320B36CB5C17292 /* Pods-financeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6489B6AACB691D5F4B2FCED449AD3AE6 /* Pods-financeAppTests.modulemap */,
+				AD0AC6993C1E276FBF2377BDE4358B44 /* Pods-financeAppTests-acknowledgements.markdown */,
+				5DCEC8E8CCAEF1644854A3CFAA559EF1 /* Pods-financeAppTests-acknowledgements.plist */,
+				3D4CF8A71593022936F37AC873F6A377 /* Pods-financeAppTests-dummy.m */,
+				E9AE0DB8F2BE397FEF30F7454B0C205C /* Pods-financeAppTests-Info.plist */,
+				BF5705069A8B2AAE7F3446ED93612FA0 /* Pods-financeAppTests-umbrella.h */,
+				4C0D63EFA9A45A3D21595AB51079BE38 /* Pods-financeAppTests.debug.xcconfig */,
+				BAF52FE7E149E2FCA41387B2A3D2FF85 /* Pods-financeAppTests.release.xcconfig */,
+			);
+			name = "Pods-financeAppTests";
+			path = "Target Support Files/Pods-financeAppTests";
+			sourceTree = "<group>";
+		};
+		27E3C24F43DB99C351970DD5AE24D035 /* Pods-financeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD7B4E338A1B5F6D43BD7662086B5D /* Pods-financeApp.modulemap */,
+				101046075AF0E5E6E47027C3152F2C1A /* Pods-financeApp-acknowledgements.markdown */,
+				FD2B071BD7054D0D80E30A5352A4E477 /* Pods-financeApp-acknowledgements.plist */,
+				634B80C64012324A42C3378EE03167C8 /* Pods-financeApp-dummy.m */,
+				DE21264824CC4CAF5FA938B68A5DB04E /* Pods-financeApp-frameworks.sh */,
+				DE50B8380C917528C49BD3C5EA00FCA7 /* Pods-financeApp-Info.plist */,
+				42A1470FE429E0A6495F389949AC18B4 /* Pods-financeApp-umbrella.h */,
+				B8463C82425FBE1DD7FDDE6310AC917D /* Pods-financeApp.debug.xcconfig */,
+				1A62F414C26BCC86B5816048EF4980A9 /* Pods-financeApp.release.xcconfig */,
+			);
+			name = "Pods-financeApp";
+			path = "Target Support Files/Pods-financeApp";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65FE49DCA666F72419BA91DB05D361BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D674AC736C2FC788C75FE0113F892E2A /* CreditCardView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				65FE49DCA666F72419BA91DB05D361BD /* Pods */,
+				1DB21A4C37E25D26CB628EC987A72ECC /* Products */,
+				FF57F3343A51E327BBF2622F1906271C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D674AC736C2FC788C75FE0113F892E2A /* CreditCardView */ = {
+			isa = PBXGroup;
+			children = (
+				A2C12562F884761B8063E3022C0EC2CA /* CCBackgroundView.swift */,
+				710428C656A62EBA22CA9FC0C125D78F /* CCContentView.swift */,
+				1C179B7C820B4C0FAF69D5986FDB4CEB /* CreditCardView.swift */,
+				F73A7D731D5156F77DA1F1184E715E45 /* Support Files */,
+			);
+			name = CreditCardView;
+			path = CreditCardView;
+			sourceTree = "<group>";
+		};
+		F44F40AA1C74D552EDF0FEB34E597ADC /* Pods-financeApp-financeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39991592F02DA8870355B9A2727A4D6A /* Pods-financeApp-financeAppUITests.modulemap */,
+				498C7555483AFD883A27039D8255BA06 /* Pods-financeApp-financeAppUITests-acknowledgements.markdown */,
+				8326C427E059E8BF58C4BFB7AEB3E2FB /* Pods-financeApp-financeAppUITests-acknowledgements.plist */,
+				1B08396D3DFBC61ED4103296E858FEB3 /* Pods-financeApp-financeAppUITests-dummy.m */,
+				F93E3748E97F7D5BD87CD20E2F002609 /* Pods-financeApp-financeAppUITests-frameworks.sh */,
+				8F9F5E30E2005F654AAED1403DCB92F4 /* Pods-financeApp-financeAppUITests-Info.plist */,
+				7E2A942A95AE8ABCA03E2FA98F352B1F /* Pods-financeApp-financeAppUITests-umbrella.h */,
+				ED39E2964567171ED6D89494FFD0BA42 /* Pods-financeApp-financeAppUITests.debug.xcconfig */,
+				D1663DD8056E2AC072D6200F2F1B923C /* Pods-financeApp-financeAppUITests.release.xcconfig */,
+			);
+			name = "Pods-financeApp-financeAppUITests";
+			path = "Target Support Files/Pods-financeApp-financeAppUITests";
+			sourceTree = "<group>";
+		};
+		F73A7D731D5156F77DA1F1184E715E45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				243A3D9E2B01A3934983445DA3FF7821 /* CreditCardView.modulemap */,
+				DED1213A39DBD655D35E04CA4F9E180A /* CreditCardView.xcconfig */,
+				626124FCCE1F28D5F2CA9069B3B602F7 /* CreditCardView-dummy.m */,
+				BDBC66F728DB1BB5BDFE303F5989896B /* CreditCardView-Info.plist */,
+				63D477A8CBCBE08E4F58A80DD87CB58E /* CreditCardView-prefix.pch */,
+				FD5B58B53F60BCD54D38B5793F13E1E6 /* CreditCardView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CreditCardView";
+			sourceTree = "<group>";
+		};
+		FF57F3343A51E327BBF2622F1906271C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E3C24F43DB99C351970DD5AE24D035 /* Pods-financeApp */,
+				F44F40AA1C74D552EDF0FEB34E597ADC /* Pods-financeApp-financeAppUITests */,
+				23A8EE1FC0EE1A1D2320B36CB5C17292 /* Pods-financeAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D8AC3090C8414D92505AD3E73AB9B8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DE355FFD1730FDC5C1463704607A4C /* CreditCardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1ADE27E4E286FFFD2A6BEFE448673A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56294841A232619B227CA0C7D3728193 /* Pods-financeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3CCAAC99EE1106B4E1D749E41225BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF25AD4EF65F097FD8DFB5BE046894C2 /* Pods-financeAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC37810BBFFCA13BE3131709477CA037 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394EB741BF07E189322B7CF6E39EE85F /* Pods-financeApp-financeAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46DFE403432A84887C89208F7612BC1D /* CreditCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273F348289862255D17BDB2F4167C4C9 /* Build configuration list for PBXNativeTarget "CreditCardView" */;
+			buildPhases = (
+				2D8AC3090C8414D92505AD3E73AB9B8D /* Headers */,
+				1B7ADF234FF2EC1255867F32C0D0B733 /* Sources */,
+				1A655142C96FB4FCEFBEF64E3DFD5E10 /* Frameworks */,
+				ADD411AE9E29F1F1FFD5EED48720C7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardView;
+			productName = CreditCardView;
+			productReference = C655C453257937C4D8D76C7CBEDCB11F /* CreditCardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B9B427C03DCB3271B15DFAE802DAEF4 /* Pods-financeApp-financeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6674183A790A15ED583458B82A4D653D /* Build configuration list for PBXNativeTarget "Pods-financeApp-financeAppUITests" */;
+			buildPhases = (
+				EC37810BBFFCA13BE3131709477CA037 /* Headers */,
+				65D4074502192413CFB2C1F5DFB7D938 /* Sources */,
+				A4F29D81626321F2DC7005609EC60841 /* Frameworks */,
+				247DFCC41C100619F29CC1911F8CB17B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D3B00E358B7AC8DA0A010E56C8A559A /* PBXTargetDependency */,
+			);
+			name = "Pods-financeApp-financeAppUITests";
+			productName = "Pods-financeApp-financeAppUITests";
+			productReference = 6087259B1B35B09B99B92684132536C9 /* Pods_financeApp_financeAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4A187812A9595E714FA1E1E8EAA4A21 /* Pods-financeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBC9A498100793ED136911112E2C105 /* Build configuration list for PBXNativeTarget "Pods-financeAppTests" */;
+			buildPhases = (
+				CF3CCAAC99EE1106B4E1D749E41225BD /* Headers */,
+				B4B0023E835D98B8D16FF5BEFA5A8329 /* Sources */,
+				64FCABEF0165FDC4C623B7249A94C2E6 /* Frameworks */,
+				A6374F521FA9B25E70B7BC409017EA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204BA78C83E11F3BB56B01342477A3AE /* PBXTargetDependency */,
+			);
+			name = "Pods-financeAppTests";
+			productName = "Pods-financeAppTests";
+			productReference = C998EC5A92AC01F1423FF226F4E64F89 /* Pods_financeAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F89B9A3C8FBB3F1A3F7440939F212707 /* Pods-financeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24B2078275E9B251C69E5879D347313 /* Build configuration list for PBXNativeTarget "Pods-financeApp" */;
+			buildPhases = (
+				3F1ADE27E4E286FFFD2A6BEFE448673A /* Headers */,
+				D6CD4F8A8DBF850A9C1DFCDA9F520C4A /* Sources */,
+				A30B3F9030BF64E0F36A110ECC28A158 /* Frameworks */,
+				CEFA0D9D53B25FEE6D20AC73AC142AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20850E3872D6CB161EC2FBBC9DB2E353 /* PBXTargetDependency */,
+			);
+			name = "Pods-financeApp";
+			productName = "Pods-financeApp";
+			productReference = DEA0FB5FF9B5E1547461E00410E6EEA8 /* Pods_financeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DB21A4C37E25D26CB628EC987A72ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46DFE403432A84887C89208F7612BC1D /* CreditCardView */,
+				F89B9A3C8FBB3F1A3F7440939F212707 /* Pods-financeApp */,
+				8B9B427C03DCB3271B15DFAE802DAEF4 /* Pods-financeApp-financeAppUITests */,
+				F4A187812A9595E714FA1E1E8EAA4A21 /* Pods-financeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247DFCC41C100619F29CC1911F8CB17B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6374F521FA9B25E70B7BC409017EA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD411AE9E29F1F1FFD5EED48720C7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA0D9D53B25FEE6D20AC73AC142AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7ADF234FF2EC1255867F32C0D0B733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AA0FBB927A140A2C8006CB773F149D /* CCBackgroundView.swift in Sources */,
+				33A892D74157BF672B9F282A0E2BE44C /* CCContentView.swift in Sources */,
+				88FB653319BE06BB98F6B1BCDAC40320 /* CreditCardView.swift in Sources */,
+				68EADDF69B1F5D7C9DACFD03949EECEC /* CreditCardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D4074502192413CFB2C1F5DFB7D938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F6D86AE718F28AC97B297398DB4DC6 /* Pods-financeApp-financeAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B0023E835D98B8D16FF5BEFA5A8329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B989A21CD6A40160251FB962C4E47BB /* Pods-financeAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CD4F8A8DBF850A9C1DFCDA9F520C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB2D6A3312CFF52BC70E3BD4AD76B86 /* Pods-financeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204BA78C83E11F3BB56B01342477A3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-financeApp";
+			target = F89B9A3C8FBB3F1A3F7440939F212707 /* Pods-financeApp */;
+			targetProxy = 8255FCE56DB650A02213ED39C63C7EB8 /* PBXContainerItemProxy */;
+		};
+		20850E3872D6CB161EC2FBBC9DB2E353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreditCardView;
+			target = 46DFE403432A84887C89208F7612BC1D /* CreditCardView */;
+			targetProxy = 1283BBF98B5D91521C5E5793E7423F3E /* PBXContainerItemProxy */;
+		};
+		9D3B00E358B7AC8DA0A010E56C8A559A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreditCardView;
+			target = 46DFE403432A84887C89208F7612BC1D /* CreditCardView */;
+			targetProxy = 111EF0417EAF9274CB447EEF52BB94AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ECA0555EE0836E3B5FFB136EEBE1F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		215112338B87FB510F5F5DF6FF03FD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1663DD8056E2AC072D6200F2F1B923C /* Pods-financeApp-financeAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeApp-financeAppUITests/Pods-financeApp-financeAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeApp-financeAppUITests/Pods-financeApp-financeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77B01C1D6F88F8919B7BD83D13001660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF52FE7E149E2FCA41387B2A3D2FF85 /* Pods-financeAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeAppTests/Pods-financeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeAppTests/Pods-financeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8443D476CE2D2A30F61157F35DDE4BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED1213A39DBD655D35E04CA4F9E180A /* CreditCardView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardView/CreditCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardView/CreditCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CreditCardView/CreditCardView.modulemap";
+				PRODUCT_MODULE_NAME = CreditCardView;
+				PRODUCT_NAME = CreditCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CFD6299F081685262B9D78A5EBC5685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A62F414C26BCC86B5816048EF4980A9 /* Pods-financeApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeApp/Pods-financeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeApp/Pods-financeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95D56BF967D9D6542BEBD3F3252BB2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0D63EFA9A45A3D21595AB51079BE38 /* Pods-financeAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeAppTests/Pods-financeAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeAppTests/Pods-financeAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCBD7127AB8F0D53055FDC229458ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED1213A39DBD655D35E04CA4F9E180A /* CreditCardView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardView/CreditCardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardView/CreditCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CreditCardView/CreditCardView.modulemap";
+				PRODUCT_MODULE_NAME = CreditCardView;
+				PRODUCT_NAME = CreditCardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3D64790A0FE037697A0C2CDF06EBC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB065EE25E33E6E2A73FB3B1A2C1E08E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED39E2964567171ED6D89494FFD0BA42 /* Pods-financeApp-financeAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeApp-financeAppUITests/Pods-financeApp-financeAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeApp-financeAppUITests/Pods-financeApp-financeAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D302AB33D9D8689AB5404906E7C6FC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8463C82425FBE1DD7FDDE6310AC917D /* Pods-financeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-financeApp/Pods-financeApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-financeApp/Pods-financeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273F348289862255D17BDB2F4167C4C9 /* Build configuration list for PBXNativeTarget "CreditCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8443D476CE2D2A30F61157F35DDE4BEF /* Debug */,
+				BCBD7127AB8F0D53055FDC229458ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECA0555EE0836E3B5FFB136EEBE1F4E /* Debug */,
+				C3D64790A0FE037697A0C2CDF06EBC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6674183A790A15ED583458B82A4D653D /* Build configuration list for PBXNativeTarget "Pods-financeApp-financeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB065EE25E33E6E2A73FB3B1A2C1E08E /* Debug */,
+				215112338B87FB510F5F5DF6FF03FD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBC9A498100793ED136911112E2C105 /* Build configuration list for PBXNativeTarget "Pods-financeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D56BF967D9D6542BEBD3F3252BB2C2 /* Debug */,
+				77B01C1D6F88F8919B7BD83D13001660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24B2078275E9B251C69E5879D347313 /* Build configuration list for PBXNativeTarget "Pods-financeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D302AB33D9D8689AB5404906E7C6FC9D /* Debug */,
+				8CFD6299F081685262B9D78A5EBC5685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
