@@ -19,6 +19,7 @@
 		E2892BE92847E7690049987D /* financeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2892BE82847E7690049987D /* financeAppUITests.swift */; };
 		E2892BEB2847E7690049987D /* financeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2892BEA2847E7690049987D /* financeAppUITestsLaunchTests.swift */; };
 		E2892C002847F53C0049987D /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2892BFF2847F53C0049987D /* homeViewController.swift */; };
+		E2E70DE3284B41A300C8212D /* cardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E70DE2284B41A300C8212D /* cardsViewController.swift */; };
 		F7EF5FEC50924C0834CFD743 /* Pods_financeApp_financeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA4133E3CB6B812BD928E86 /* Pods_financeApp_financeAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		E2892BE82847E7690049987D /* financeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeAppUITests.swift; sourceTree = "<group>"; };
 		E2892BEA2847E7690049987D /* financeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E2892BFF2847F53C0049987D /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		E2E70DE2284B41A300C8212D /* cardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsViewController.swift; sourceTree = "<group>"; };
 		E4734CAD0C5BA1A6EA64E464 /* Pods-financeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financeAppTests.release.xcconfig"; path = "Target Support Files/Pods-financeAppTests/Pods-financeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		FFA4133E3CB6B812BD928E86 /* Pods_financeApp_financeAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_financeApp_financeAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,7 +115,6 @@
 				15E90CD1723DC23A052E7EDA /* Pods-financeAppTests.debug.xcconfig */,
 				E4734CAD0C5BA1A6EA64E464 /* Pods-financeAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -216,6 +217,7 @@
 		E2892BFD2847F1E10049987D /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				E2E70DE2284B41A300C8212D /* cardsViewController.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -469,6 +471,7 @@
 				E2892BCC2847E7670049987D /* OnboardingViewController.swift in Sources */,
 				E2892C002847F53C0049987D /* homeViewController.swift in Sources */,
 				E2892BC82847E7670049987D /* AppDelegate.swift in Sources */,
+				E2E70DE3284B41A300C8212D /* cardsViewController.swift in Sources */,
 				E2892BCA2847E7670049987D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -115,18 +115,28 @@
         <!--Cards-->
         <scene sceneID="NIQ-4p-Hjg">
             <objects>
-                <viewController id="qKN-FY-REv" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="cardsViewController" id="qKN-FY-REv" customClass="cardsViewController" customModule="financeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vio-nq-zl9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IYb-qF-m6l" customClass="CreditCardView" customModule="CreditCardView">
+                                <rect key="frame" x="20" y="76" width="374" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bgA-TA-Nzm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Cards" image="creditcard" catalog="system" id="6IN-d8-2I9"/>
+                    <connections>
+                        <outlet property="creditCardView" destination="IYb-qF-m6l" id="UMR-si-VyX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qWO-pp-HBB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780" y="1661"/>
+            <point key="canvasLocation" x="1779.7101449275365" y="1660.7142857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rWT-SI-5z2">
