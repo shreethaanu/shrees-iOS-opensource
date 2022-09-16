@@ -13,6 +13,7 @@ There would be variety of Diff domain projects you can find here.
 1. Finance App
 2. Doodly
 3. Ecommerce App
+4. Notes App
 
 
 **Follow me on other social networks too.**
