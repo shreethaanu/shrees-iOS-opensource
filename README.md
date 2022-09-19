@@ -13,7 +13,7 @@ There would be variety of Diff domain projects you can find here.
 1. Finance App
 2. Doodly
 3. [Ecommerce App](https://github.com/shreethaanu/Ecomm-STR)
-5. [Notes App] (https://github.com/shreethaanu/NotesApp) 
+5. [Notes App](https://github.com/shreethaanu/NotesApp) 
 
 
 **Follow me on other social networks too.**
