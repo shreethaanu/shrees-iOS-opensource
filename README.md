@@ -10,7 +10,7 @@ There would be variety of Diff domain projects you can find here.
 
 **Here are my list of Opensource projects : **
 
-1. Finance App
+1. Finance App (Updating to latest swift version)
 2. Doodly
 3. [Ecommerce App](https://github.com/shreethaanu/Ecomm-STR)
 5. [Notes App](https://github.com/shreethaanu/NotesApp) 
