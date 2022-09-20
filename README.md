@@ -11,7 +11,7 @@ There would be variety of Diff domain projects you can find here.
 **Here are my list of Opensource projects : **
 
 1. Finance App (Updating to latest swift version)
-2. [Doodle App](https://github.com/shreethaanu/doodly)) 
+2. [Doodle App](https://github.com/shreethaanu/doodly)
 3. [Ecommerce App](https://github.com/shreethaanu/Ecomm-STR)
 4. [Notes App](https://github.com/shreethaanu/NotesApp) 
 5. [Weather App](https://github.com/shreethaanu/WeatherApp-Swift)  
